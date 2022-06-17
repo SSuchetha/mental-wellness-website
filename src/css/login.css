@@ -1,0 +1,39 @@
+p
+{
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 515px;
+  height: 80px;
+  width: 300px;
+  font-size: 23px;
+}
+
+form {
+  padding: 2rem;
+}
+
+input{
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.login-button{
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  background: rgb(199, 115, 115);
+  border: 1px solid rgb(199, 115, 115);
+  color: black;
+  padding: 10px 20px;
+  margin-left: 620px;
+}
+
+.select
+{
+    height: 30px;
+}

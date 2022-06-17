@@ -1,0 +1,50 @@
+#root
+{
+    background: linear-gradient(to bottom, #ffccff 0%, #cc99ff 100%);
+}
+
+a, .navbar-nav, .navbar-light .nav-link {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 10px;
+}
+
+.logoimg {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 630px;
+}
+
+.title {
+    margin-left: 600px;
+    font-family: "Comic Sans MS Bold Italic";
+    font-size: 45px;
+}
+
+.title1 {
+    margin-left: 520px;
+    font-size: 25px;
+    font-family: "Comic Sans MS Bold Italic";
+    font-style: italic;
+}
+
+.link {
+    color: black;
+}
+
+.link-active {
+    border-bottom: 2px solid firebrick;
+}
+
+.container1{
+    font-size: 30px;
+}

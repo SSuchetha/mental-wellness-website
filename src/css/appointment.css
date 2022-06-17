@@ -1,0 +1,36 @@
+.box
+{
+    /*width: 250px;
+    margin-left: 30px;
+    border: 2px solid rgb(199, 115, 115);
+    padding: 10px;
+    text-align: justify;
+    font-size: large;*/
+    width: 280px;
+    margin-right: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: justify;
+    height: 490px;
+    background: #ce75b0;
+    font-size: 23px;
+}
+
+.tick
+{
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+.imp
+{
+    border: 2px solid white;
+    padding: 10px;
+    text-align: justify;
+    background: #ce75b0;
+}
+
+.form{
+    margin-top:10px;
+}

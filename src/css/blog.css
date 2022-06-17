@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.card
+{
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 500px;
+}
+
+.card_img
+{
+    height: 11rem;
+    width: 10px 0%;
+    object-fit: cover;
+}
+
+.card:hover
+{
+    transform: scale(1.1);
+}
+
+.card_title
+{
+    padding: 1rem;
+}
+
+.card_description
+{
+    padding: 0 1rem;
+}
+
+.card_btn
+{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border: 2px solid #835674;
+    background: transparent;
+    color: #835674;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.card_btn:hover
+{
+    transform: scale(1.02);
+    background: #835674;
+    color: white;
+}
+
+.chart-innertext-value {
+    display: none;
+  }
+
+.routine{
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.confidence, .connected, .focused, .sharpen, .healthy, .break{
+    border: 2px solid black;
+    padding: 20px;
+}

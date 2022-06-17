@@ -1,0 +1,40 @@
+.ques {
+    align-items:center;
+    font-size: 23px;
+    border: 13px solid #ce75b0;
+    margin-right: 390px;
+    margin-left: 430px;
+    margin-top: 40px;
+
+}
+.radio{
+    width:18px;
+    height:18px;
+}
+.btn{
+    height:45px;
+    width:100px;
+    font-size:20px;
+    margin-left:280px;
+}
+.chart{
+    margin-left:520px;
+}
+
+.display {
+    border: 2px solid black;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    border-spacing:0 15px;
+    border-collapse:separate;
+}
+    
+th {
+    border-bottom: 1px solid black;
+}
+    
+.displaytd {
+    text-align: center;
+}
